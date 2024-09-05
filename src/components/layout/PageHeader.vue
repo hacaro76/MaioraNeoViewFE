@@ -1,7 +1,7 @@
 <template>
 	<!--<header :class="($route.path === '/') ? 'active' : ''" :class="($route.path == '/settings') ? 'd-none' : ''">-->
 	<header>
-		<router-link to="/" v-on:dblclick="updateFiles"><img :src="require('../../assets/logo/abyachts-logo-black.svg')" alt="Logo AB" id="logo"></router-link>
+		<router-link to="/" v-on:dblclick="updateFiles"><img :src="require('../../assets/logo/maiora-br-logo.svg')" alt="Logo AB" id="logo"></router-link>
 	</header>
 	
 	<nav id="secondary-nav">

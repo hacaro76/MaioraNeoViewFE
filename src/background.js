@@ -23,7 +23,7 @@ let win;
 process.env.GH_TOKEN = "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d";
 autoUpdater.setFeedURL({
 	provider: 'github',
-	repo: 'ABNeoViewFE',
+	repo: 'MaioraViewFE',
 	owner: 'hacaro76',
 	private: true,
 	token: process.env.GH_TOKEN
@@ -268,13 +268,13 @@ app.on('ready', async () => {
 	let ver = app.getVersion()
 	store.set("ver", ver)
 
-	//let apiPath = (isDevelopment) ? 'http://localhost:8080/ABNeoView/api/' : 'https://funny-merkle.93-93-119-34.plesk.page/ABNeoView/api/'
-	let apiPath = 'https://fixlife.it/ABNeoView/api/' // produzione
+	//let apiPath = (isDevelopment) ? 'http://localhost:8080/MaioraNeoView/api/' : 'https://funny-merkle.93-93-119-34.plesk.page/MaioraNeoView/api/'
+	let apiPath = 'https://fixlife.it/MaioraNeoView/api/' // produzione
 	store.set("userPath", app.getPath('home'))
-	store.set("appPath", app.getPath('appData') +'\\ABNeoView\\')
+	store.set("appPath", app.getPath('appData') +'\\MaioraNeoView\\')
 	store.set("apiPath", apiPath)
-	store.set("mediaPath", 'https://fixlife.it/ABNeoView/public/') // development
-	//store.set("mediaPath", 'https://fixlife.it/ABNeoView/public/') // produzione
+	store.set("mediaPath", 'https://fixlife.it/MaioraNeoView/public/') // development
+	//store.set("mediaPath", 'https://fixlife.it/MaioraNeoView/public/') // produzione
 	//if (!store.has("screensaverTimeout")) store.set("screensaverTimeout", 3)
 	log.info('apiPath', apiPath)
 	
@@ -304,7 +304,7 @@ app.on('ready', async () => {
     const url = request.url.substr(7)
 		const appData = app.getPath('appData')
     //log.info(appData +'\\'+ url)
-    callback({ path: appData +'\\ABNeoView\\'+ url })
+    callback({ path: appData +'\\MaioraNeoView\\'+ url })
   })
 	// protocollo caricamento pdf
   protocol.registerFileProtocol('docs', (request, callback) => {

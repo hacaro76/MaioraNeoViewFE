@@ -55,9 +55,9 @@
 				let returnPath = this.boatItem.vr
 				if (returnPath.indexOf('https') !== -1) return returnPath
 				if (isDevelopment) {
-					return 'http://127.0.0.1:8888/ABNeoView/'+ returnPath
+					return 'http://127.0.0.1:8888/MaioraNeoView/'+ returnPath
 				} else {
-					return 'https://fixlife.it/ABNeoView/'+ returnPath
+					return 'https://fixlife.it/MaioraNeoView/'+ returnPath
 				}
 			}
 		},

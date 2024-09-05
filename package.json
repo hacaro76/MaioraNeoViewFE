@@ -4,7 +4,7 @@
   "author": "hacaro",
   "version": "0.2.6",
   "private": true,
-  "repository": "github:hacaro76/ABNeoViewFE",
+  "repository": "github:hacaro76/MaioraViewFE",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -10,11 +10,11 @@ module.exports = defineConfig({
 			preload: 'src/preload.js',
 			builderOptions: {
 				productName: "AB NeoView",
-				appId: 'com.github.hacaro76.ABNeoViewFE',
+				appId: 'com.github.hacaro76.MaioraViewFE',
 				publish: [{
 					provider: "github",
 					owner: "hacaro76",
-					repo: "ABNeoViewFE",
+					repo: "MaioraViewFE",
 					releaseType: "release"
 				}],
 				win: {
