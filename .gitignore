@@ -1,0 +1,55 @@
+.DS_Store
+node_modules
+/dist
+/favicons
+/platforms
+yarn.lock
+package-lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Electron-builder output
+/dist_electron
+
+#php cms
+/admin
+/heritage/
+/backup/
+/meta.html
+/jsconfig.json
+/benetti.sql.gz
+/benetti.sql
+/bash.exe.stackdump
+<<<<<<< HEAD
+/test.html
+/dist_electron/preload.js
+/dist_electron/package.json
+/dist_electron/latest.yml
+/dist_electron/index.js
+/dist_electron/builder-debug.yml
+/dist_electron/Benetti Table Setup 0.2.3.exe.blockmap
+/dist_electron/Benetti Table Setup 0.2.3.exe
+/dist_electron/Benetti Table Setup 0.2.2.exe.blockmap
+/dist_electron/Benetti Table Setup 0.2.2.exe
+/dist_electron/win-unpacked/
+/dist_electron/bundled/
+=======
+/test.html
+>>>>>>> parent of 47df656 (apple-notarize)
