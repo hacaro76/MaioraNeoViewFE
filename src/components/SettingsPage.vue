@@ -590,7 +590,7 @@
 		align-self: center;
 	}
 	.box-full button:not(.disabled) {
-		background-color: #000000;
+		background-color: #614D37;
 		color: #fff;
 	}
 	.label {

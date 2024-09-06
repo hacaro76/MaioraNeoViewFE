@@ -103,10 +103,10 @@
 		border-right: 0;
 	}
 	th {
-		font-family: "Fakt Pro Blond", Helvetica, Arial, "sans-serif";
+		font-family: "Avenir Regular", Helvetica, Arial, "sans-serif";
 	}
 	td {
-		font-family: "Fakt Pro Medium", Helvetica, Arial, "sans-serif";
+		font-family: "Avenir Regular", Helvetica, Arial, "sans-serif";
 	}
 	#product-specifications .box-download {
 		margin-bottom: 0;

@@ -2,11 +2,11 @@
     <div id="content" class="text-center homepage">
 
         <h1 class="my-6">
-            Welcome<br>To Our World
+            The Pleasure<br>of Life on Board
         </h1>
 
         <div class="video-preview text-center">
-            <img id="hp-img" :src="require('../assets/homepage-new.jpg')" alt="Benetti Yacht" data-fancybox>
+            <img id="hp-img" :src="require('../assets/Maiora-lifestyle_Philosophy.jpg')" alt="Benetti Yacht" data-fancybox>
         </div>
 			
     </div>

@@ -16,7 +16,7 @@
 				
 				<a class="preview-img toleft" v-if="getItem('top')" @click="replaceImg">
 					<figure>
-						<figcaption>Flybridge</figcaption>
+						<figcaption>Nest	</figcaption>
 						<img :src="require('../../assets/profile-maindeck.png')" :data-img="getItem('top')" alt="Flybridge">
 					</figure>
 				</a>
